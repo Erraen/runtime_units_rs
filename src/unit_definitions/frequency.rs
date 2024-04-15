@@ -41,6 +41,8 @@ quantity! {
         @cycle_per_minute: 1.666_666_666_666_666_6E-2; "1/min", "cycle per minute", "cycles per minute";
         @cycle_per_shake: 1.0_E8; "100 MHz", "cycle per shake", "cycles per shake";
         @cycle_per_year: 3.170_979_198_376_458_E-8; "1/a", "cycle per year", "cycles per year";
+
+        @stroke_per_minute: 1.666_666_666_666_666_6E-2; "spm", "stroke per minute", "strokes per minute";
     }
 }
 
