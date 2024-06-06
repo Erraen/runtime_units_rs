@@ -589,7 +589,7 @@ macro_rules! system {
             ///
             /// A list of unit types supported for the library (given feature flags selected).
             /// 
-            #[derive(Copy, Clone, Debug)]
+            #[derive(Copy, Clone, Debug, PartialEq)]
             pub enum UnitTypes
             {
                 $(
